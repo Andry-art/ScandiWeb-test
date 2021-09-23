@@ -1,0 +1,206 @@
+.cart-container {
+  width: 1240px;
+  height: auto;
+  margin: 0 auto 0 auto;
+}
+.cart-container .cart-title {
+  position: relative;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 60px;
+}
+.cart-container .emptyCartMain {
+  text-align: center;
+  position: relative;
+  top: -100px;
+}
+.cart-container .emptyCartMain p {
+  position: relative;
+  top: -100px;
+  left: 10px;
+  font-size: 36px;
+  font-weight: 300;
+}
+.cart-container .cart-list {
+  margin-top: 80px;
+  list-style: none;
+}
+.cart-container .cart-list li {
+  width: 1050px;
+  height: 200px;
+  margin-bottom: 80px;
+  border-top: 2px solid #E5E5E5;
+}
+.cart-container .cart-list .Cartbrand {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+}
+.cart-container .cart-list h3 {
+  margin: 0;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 27px;
+}
+.cart-container .cart-list .Cartprice {
+  display: flex;
+  flex-direction: row;
+}
+.cart-container .cart-list .Cartprice p {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 18px;
+}
+.cart-container .cart-list .Cartsize {
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+}
+.cart-container .cart-list .Cartsize .box-cart {
+  display: flex;
+  width: 50px;
+  height: 40px;
+  border: 1px solid #1D1F22;
+  margin-right: 10px;
+  transition-duration: 0.3s;
+}
+.cart-container .cart-list .Cartsize .box-cart p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+.cart-container .cart-list .Cartsize .box-cart:hover {
+  border: 2px solid #1D1F22;
+}
+.cart-container .cart-list .Cartsize .box-cart:hover p {
+  font-weight: bold;
+  cursor: pointer;
+}
+.cart-container .cart-list .Cartsize .box-choosen-cart {
+  display: flex;
+  width: 50px;
+  height: 40px;
+  border: 1px solid #1D1F22;
+  margin-right: 10px;
+  transition-duration: 0.3s;
+  background-color: #1D1F22;
+}
+.cart-container .cart-list .Cartsize .box-choosen-cart p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  color: white;
+}
+.cart-container .cart-list img {
+  position: relative;
+  top: -185px;
+  left: 900px;
+  width: 141px;
+  height: 185px;
+}
+.cart-container .cart-list .countItemCart {
+  position: relative;
+  padding: 0;
+  top: -350px;
+  left: 850px;
+}
+.cart-container .cart-list .countItemCart .plusCart {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: -20px;
+  cursor: pointer;
+}
+.cart-container .cart-list .countItemCart .plusCart p {
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: -8px;
+}
+.cart-container .cart-list .countItemCart .minusCart {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.cart-container .cart-list .countItemCart .minusCart p {
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: -13px;
+}
+.cart-container .cart-list .countItemCart .number {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  margin-left: 15px;
+  margin-top: 35px;
+}
+.CartOption {
+  display: flex;
+  flex-direction: column;
+  margin-top: -20px;
+}
+.CartOption p {
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 12px;
+}
+.CartOption .CartOptionItems {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  margin-right: 20px;
+}
+.color-box .box-cart {
+  display: flex;
+  width: 50px;
+  height: 40px;
+  border: 1px solid #1D1F22;
+  margin-right: 10px;
+  transition-duration: 0.3s;
+}
+.color-box .box-cart p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+.color-box .box-cart:hover {
+  border: 2px solid #1D1F22;
+}
+.color-box .box-cart:hover p {
+  font-weight: bold;
+  cursor: pointer;
+}
+.color-box .box-choosen-cart-color {
+  display: flex;
+  width: 50px;
+  height: 40px;
+  border: 3px solid #1D1F22;
+  margin-right: 10px;
+  transition-duration: 0.3s;
+}
+.color-box .box-choosen-cart-color p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+  color: white;
+}

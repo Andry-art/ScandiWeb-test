@@ -1,0 +1,242 @@
+
+  
+  
+  .container{ 
+    width: 1240px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    
+
+    .categor-title{
+        position: absolute;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: normal;
+        margin: 0;
+        padding-top: 60px;
+       
+    }
+
+    
+.all-categor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin:0;
+    padding:0;
+    padding-top: 180px;
+    
+    
+
+.categor-item{
+    list-style-type: none;
+    width: 387px;
+    height: 470px;
+    margin:15px;
+    padding:0;
+    margin-left: 0;
+    margin-right: 40px;
+    margin-bottom: 90px;
+    transition-duration: 0.5s;
+    
+
+    &:hover {
+        box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+        .cart {
+            position: relative;
+            left: 300px;
+            top: -120px;
+            width:52px;
+            height: 52px;
+            background-color:  #5ECE7B;
+            border-radius: 100px;
+            opacity: 1;
+            filter: drop-shadow(0px 4px 11px rgba(29, 31, 34, 0.1));
+            z-index: 100;
+
+            &:hover {
+                background-color: rgb(34, 199, 78);
+            }
+
+            &:active {
+                background-color: rgb(13, 58, 25);
+            }
+        }
+    }
+
+
+    &:nth-child(4n){
+        margin-left: 0;
+    }
+
+    .categor-img {
+       width: 355px;
+       height: 340px;
+       margin-left: 16px;
+       margin-top: 16px;
+       z-index: 10;
+      
+    }
+}
+    
+ 
+
+    .categor-title-item{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 160%;
+        margin-top: 18px;
+        margin-left: 16px;
+      
+    }
+
+    .price{
+        position: relative;
+        left:16px; 
+        top: -30px;
+        display: flex;
+        flex-direction: row;
+        width:58px;
+        height: 29px;
+        margin:0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
+
+.cart {
+    position: relative;
+    left: 300px;
+    top: -120px;
+    width:52px;
+    height: 52px;
+    background-color:  #5ECE7B;
+    border-radius: 100px;
+    opacity: 0;
+    transition-duration: 0.5s;
+    z-index: 100;
+
+   
+
+    .catr-item-icon{
+        position: relative;
+        left: 14px;
+        top: 16px;
+    }
+}
+
+  }
+
+
+  .out-of-stock{
+    list-style-type: none;
+    width: 387px;
+    height: 450px;
+    margin:0;
+    padding:0;
+    margin-left: 0;
+    margin-right: 40px;
+    margin-bottom: 90px;
+    
+
+    &:nth-child(4n){
+        margin-left: 0;
+    }
+
+    .categor-img {
+       width: 355px;
+       height: 340px;
+       margin-left: 16px;
+       margin-top: 16px;
+       opacity: 0.5;
+    }
+
+    .stok {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        top:190px;
+    }
+
+    
+    .categor-title-item{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 160%;
+        margin-top: 18px;
+        margin-left: 16px;
+        opacity: 0.5;
+    }
+
+    .price{
+        position: relative;
+        left:16px; 
+        top: -30px;
+        display: flex;
+        flex-direction: row;
+        width:58px;
+        height: 29px;
+        margin:0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        opacity: 0.5;
+    }
+  }
+
+
+
+  .shadow{
+      position: absolute;
+      background-color:  rgba(147, 143, 172, 0.22);
+    z-index: 100;
+    width: 1440px;
+    min-height: 800px;
+    opacity: 0.5;
+    pointer-events: none;
+
+    .categor-item{
+        opacity: 0.4;
+    }
+
+  }
+
+  .shadow-tech{
+    position: absolute;
+  background-color:  rgba(147, 143, 172, 0.22);
+  z-index: 100;
+  width: 1440px;
+  min-height: 1350px;
+  opacity: 0.5;
+  pointer-events: none;
+
+  .categor-item{
+      opacity: 0.4;
+  }
+
+  .out-of-stock{
+    opacity: 0.7; 
+  }
+
+}
+
+  link{
+      text-decoration: none;
+  }
+
+
+ 
+  
+
+
+
+
